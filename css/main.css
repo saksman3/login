@@ -1,0 +1,260 @@
+body {
+    margin: 4%;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0px;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0px;
+    transition: 1s all ease-in-out;
+}
+
+.text-center {
+    text-align: center
+}
+.wrapper{
+    box-shadow: 3px 3px 5px 3px #38393a;
+    padding:10px;
+    border-radius: 2px;
+}
+
+.btn{
+    width: 80%;
+    margin-top: 10%;
+    font-size: 20px;
+    background-color: #0e7af8;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    box-shadow: 3px 3px 5px 3px #0e7af8;
+    cursor: pointer;
+}
+.create-account{
+    color: #7fcb1d;
+    font-weight: bold;
+    text-decoration: none;
+}
+.create-account:hover{
+    color:red;
+}
+.margin10p{
+    margin: 10%
+}
+/* Benz input */
+
+.container-input {
+    margin: 10px;
+}
+
+.input-alpha {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.onfocus-1 {
+    
+    display: block;
+   
+}
+
+.border-left{
+    border-left: 1px solid gray
+}
+.border-right{
+    border-right: 1px solid gray
+}
+.input-alpha label {
+    position: absolute;
+    left: 17px;
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+    transform-origin: 0% 0%;
+}
+.input-alpha span {
+    position: absolute;
+    left: 17px;
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+    transform-origin: 0% 0%;
+}
+
+.input-alpha input {
+    border: 0px;
+    height: 48px;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid gray;
+    box-shadow: inset 0px 0px 0px 0px #f00;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 14px;
+    transition: all 1s ease-in-out;
+}
+
+.input-alpha input:focus {
+    outline: 0;
+    border-bottom: 1px solid #00f;
+}
+
+.input-alpha input:focus+label {
+    color: blue;
+}
+
+.input-alpha input:valid,
+.input-alpha input:-webkit-autofill {
+    padding: 26px 32px 10px 16px;
+}
+
+.input-alpha input:valid+label,
+.input-alpha input:-webkit-autofill+label {
+    top: 7px;
+    transform: scale(0.8);
+}
+
+
+/*  end Benz input */
+
+.member-l {
+    margin: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.font-size {
+    font-size: 16px;
+}
+
+form {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.benz-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    box-shadow: 3px 3px 8px 5px #edeaea;
+}
+
+.benz-row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 5%;
+}
+
+.benz-row:after,
+.benz-row:before {
+    display: table;
+    content: " ";
+}
+
+.benz-row:after {
+    clear: both;
+}
+.benzCol-v-small-5,
+.benzCol-small-5,
+
+.benzCol-v-small-6,
+.benzCol-small-6
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.benzCol-v-small-5,
+.benzCol-v-small-6
+ {
+    float: left;
+}
+
+
+
+
+.benzCol-v-small-6 {
+    width: 50%;
+}
+
+.benzCol-v-small-5 {
+    width: 41.66666667%;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .benzCol-small-5,
+    .benzCol-small-6
+ {
+        float: left;
+    }
+  
+    .benzCol-small-6 {
+        width: 50%;
+    }
+    .benzCol-small-5 {
+        width: 41.66666667%;
+    }
+    
+}
+.intro-text{
+    color:gray;
+    font-size:15px;
+    opacity: 0.6;
+}
+.icons{
+    text-align: center !important;
+    background: url("./icons.PNG") no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height:150px;
+    margin:20px;
+
+}
+.image{
+    width:250px;
+     height:200px;
+}
+@media screen and (max-width: 800px) {
+    .benzCol-small-6{
+        width:90%;
+        
+    }
+    .member-l {
+        margin: 2%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .benzCol-small-5{
+        width:95%;
+    }
+    .image{
+        width:50%;
+        height:50%;
+    }
+  }
