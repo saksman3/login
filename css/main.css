@@ -71,10 +71,12 @@ input[type=password] {
 }
 
 .border-left{
-    border-left: 1px solid gray
+    border-left: 1px solid gray;
 }
 .border-right{
-    border-right: 1px solid gray
+    border-right: 1px solid gray;
+    margin-right:10px;
+    margin-left:10px;
 }
 .input-alpha label {
     position: absolute;
@@ -204,7 +206,10 @@ form {
 }
 
 
+.flex-child a{
+    text-decoration: none;
 
+}
 
 
 @media (min-width: 768px) {
@@ -257,4 +262,11 @@ form {
         width:50%;
         height:50%;
     }
+  }
+  .check{
+      display:flex;
+
+  }
+  .flex-xhild{
+      flex: 1;
   }
